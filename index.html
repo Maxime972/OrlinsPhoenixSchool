@@ -9,7 +9,7 @@
     <title>Orlins Phoenix School</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/assets/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/bootstrap.min.css" type="text/css" />
 </head>
 
 <body>
@@ -17,49 +17,55 @@
     <!-- Header -->
 
     <header>
-        <div>
-            <!-- logo Phoenix -->
-        </div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Logo</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb- mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#presentation">Présentation</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#cours" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">Les cours</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#defense">Cours de défense</a></li>
-                                <li><a class="dropdown-item" href="#attaque">Cours de d'attaque</a></li>
-                                <li><a class="dropdown-item" href="#potion">Cours de potion</a></li>
-                                <li><a class="dropdown-item" href="#transformation">Cours de transformation</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="container">
+            <div class="row">
+                <!-- logo Phoenix -->
             </div>
-        </nav>
+            <div class="row">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Logo</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb- mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#presentation">Présentation</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#cours" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">Les cours</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#defense">Cours de défense</a></li>
+                                        <li><a class="dropdown-item" href="#attaque">Cours de d'attaque</a></li>
+                                        <li><a class="dropdown-item" href="#potion">Cours de potion</a></li>
+                                        <li><a class="dropdown-item" href="#transformation">Cours de transformation</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header>
 
 
     <!-- Main -->
 
-    <main>
+    <main class="container">
 
         <!-- Présentation -->
 
-        <section id="presentation">
+        <section id="presentation" class="row">
+
             <h1>Présentation de l'école</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat inventore debitis hic deserunt
                 nihil nesciunt nostrum veritatis possimus quo adipisci vero natus at fuga, modi cum! Possimus, neque.
@@ -113,42 +119,42 @@
 
         <section id="cours">
             <h1>Les cours</h1>
-            <div id="defense">
-                <div class="card" style="width: 18rem;"> <!--style à mettre sur css-->
-                    <img src="https://picsum.photos/600/400?random=1" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Cours de défense</h5>
-                        <p class="card-text">Les cours de défense sont ...</p>
-                    </div>
-                </div>
-            </div>
 
-            <div id="attaque">
-                <div class="card" style="width: 18rem;"> <!--style à mettre sur css-->
-                    <img src="https://picsum.photos/600/400?random=2" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Cours d'attaque</h5>
-                        <p class="card-text">Les cours d'attaque sont ...</p>
+            <div class="row">
+                <div class="col" id="defense">
+                    <div class="card" style="width: 14rem;"> <!--style à mettre sur css-->
+                        <img src="https://picsum.photos/600/400?random=1" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Cours de défense</h5>
+                            <p class="card-text">Les cours de défense sont ...</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <div id="potion">
-                <div class="card" style="width: 18rem;"> <!--style à mettre sur css-->
-                    <img src="https://picsum.photos/600/400?random=3" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Cours de potion</h5>
-                        <p class="card-text">Les cours de potion sont ...</p>
+                <div class="col" id="attaque">
+                    <div class="card" style="width: 14rem;"> <!--style à mettre sur css-->
+                        <img src="https://picsum.photos/600/400?random=2" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Cours d'attaque</h5>
+                            <p class="card-text">Les cours d'attaque sont ...</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div id="transformation">
-                <div class="card" style="width: 18rem;"> <!--style à mettre sur css-->
-                    <img src="https://picsum.photos/600/400?random=4" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Cours de transformation</h5>
-                        <p class="card-text">Les cours de transformation sont ...</p>
+                <div class="col" id="potion">
+                    <div class="card" style="width: 14rem;"> <!--style à mettre sur css-->
+                        <img src="https://picsum.photos/600/400?random=3" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Cours de potion</h5>
+                            <p class="card-text">Les cours de potion sont ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="transformation">
+                    <div class="card" style="width: 14rem;"> <!--style à mettre sur css-->
+                        <img src="https://picsum.photos/600/400?random=4" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Cours de transformation</h5>
+                            <p class="card-text">Les cours de transformation sont ...</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -156,57 +162,39 @@
         </section>
 
         <!-- Contact -->
-
+<hr>
         <section id="contact">
             <h1>Contact</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat inventore debitis hic deserunt
-                nihil nesciunt nostrum veritatis possimus quo adipisci vero natus at fuga, modi cum! Possimus, neque.
-                Iusto.</p>
-            <p>Sunt dolorum aliquam inventore laudantium sit laboriosam repudiandae accusamus totam voluptatem quo quas
-                quidem aspernatur dolores placeat doloribus nostrum quis obcaecati quod reprehenderit, iste saepe.
-                Corporis aspernatur praesentium aperiam eligendi.</p>
-            <p>Repellat totam odio harum. Vitae officia tempore culpa, sapiente labore, rem autem sit accusantium nisi
-                qui iure minima. Beatae perferendis vitae facere ipsam cum magni voluptatibus deserunt harum saepe
-                molestiae.</p>
-            <p>Eveniet id animi qui iusto porro velit voluptatibus corporis expedita fugiat similique officiis
-                voluptates minus at architecto ea, nam itaque tenetur debitis! Voluptas sunt hic at ratione neque
-                voluptatibus. Illo?</p>
-            <p>Nisi commodi eius hic laudantium, dignissimos quis aperiam vitae maiores debitis autem magni voluptates
-                praesentium inventore, soluta natus sint ab consequuntur vero, corrupti iure totam reiciendis. Pariatur
-                dolorum hic quia?</p>
+            <p>Adresse :</p>
+            <p>4 rue Place des Phoenix<br>
+            45000 ORLEANS</p>
+            <p>Téléphone :<br>
+            02.66.66.88.99</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat inventore debitis hic deserunt
-                nihil nesciunt nostrum veritatis possimus quo adipisci vero natus at fuga, modi cum! Possimus, neque.
-                Iusto.</p>
-            <p>Sunt dolorum aliquam inventore laudantium sit laboriosam repudiandae accusamus totam voluptatem quo quas
-                quidem aspernatur dolores placeat doloribus nostrum quis obcaecati quod reprehenderit, iste saepe.
-                Corporis aspernatur praesentium aperiam eligendi.</p>
-            <p>Repellat totam odio harum. Vitae officia tempore culpa, sapiente labore, rem autem sit accusantium nisi
-                qui iure minima. Beatae perferendis vitae facere ipsam cum magni voluptatibus deserunt harum saepe
-                molestiae.</p>
-            <p>Eveniet id animi qui iusto porro velit voluptatibus corporis expedita fugiat similique officiis
-                voluptates minus at architecto ea, nam itaque tenetur debitis! Voluptas sunt hic at ratione neque
-                voluptatibus. Illo?</p>
-            <p>Nisi commodi eius hic laudantium, dignissimos quis aperiam vitae maiores debitis autem magni voluptates
-                praesentium inventore, soluta natus sint ab consequuntur vero, corrupti iure totam reiciendis. Pariatur
-                dolorum hic quia?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat inventore debitis hic deserunt
-                nihil nesciunt nostrum veritatis possimus quo adipisci vero natus at fuga, modi cum! Possimus, neque.
-                Iusto.</p>
-            <p>Sunt dolorum aliquam inventore laudantium sit laboriosam repudiandae accusamus totam voluptatem quo quas
-                quidem aspernatur dolores placeat doloribus nostrum quis obcaecati quod reprehenderit, iste saepe.
-                Corporis aspernatur praesentium aperiam eligendi.</p>
-            <p>Repellat totam odio harum. Vitae officia tempore culpa, sapiente labore, rem autem sit accusantium nisi
-                qui iure minima. Beatae perferendis vitae facere ipsam cum magni voluptatibus deserunt harum saepe
-                molestiae.</p>
-            <p>Eveniet id animi qui iusto porro velit voluptatibus corporis expedita fugiat similique officiis
-                voluptates minus at architecto ea, nam itaque tenetur debitis! Voluptas sunt hic at ratione neque
-                voluptatibus. Illo?</p>
-            <p>Nisi commodi eius hic laudantium, dignissimos quis aperiam vitae maiores debitis autem magni voluptates
-                praesentium inventore, soluta natus sint ab consequuntur vero, corrupti iure totam reiciendis. Pariatur
-                dolorum hic quia?</p>
+            <form>
+                <fieldset>
+                    <legend>Laissez-nous un message</legend>
+                    <div class="form-group">
+                        <label for="nom">Nom :</label>
+                        <input type="text" class="form-control" id="nom" placeholder="Entez votre nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" class="form-control" id="prenom" placeholder="Entez votre prénom">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adresse e-mail :</label>
+                        <input type="email" class="form-control" id="email" placeholder="Entez votre adresse e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message :</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Entez votre message"></textarea>
+                    </div>
+                </fieldset>
+            </form>
 
         </section>
+        <hr>
 
     </main>
 
@@ -217,7 +205,9 @@
             <h1>Réseaux sociaux + logo</h1>
         </div>
     </footer>
+
     <!-- Bootstrap JS -->
+
     <script src="/assets/bootstrap.bundle.min.js"></script>
 
 </body>
