@@ -1,9 +1,14 @@
 .card{
-    width: 17rem;
+    /*width: 17rem;*/
 }
 
 #pub {
     width: 1px;
     word-wrap: break-word;
     white-space: pre-wrap;
+    padding-right: 20px;
+    position: sticky;
+    bottom: 50px;
+    float: right;
+    right: 2px;
 }
