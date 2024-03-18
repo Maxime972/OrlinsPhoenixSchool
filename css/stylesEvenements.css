@@ -1,0 +1,35 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    
+    border: solid 1px red;
+}
+
+.carte{
+    width: auto;
+    
+
+    border: solid 1px green;
+    border-radius: 3%;
+}
+
+.titre-carte{
+    text-align: center;
+}
+
+.image-carte img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.texte-carte{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid-item{
+    padding: 10px;
+
+    border: solid 1px blue;
+}
