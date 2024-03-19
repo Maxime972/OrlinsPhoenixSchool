@@ -1,3 +1,11 @@
+.accueil{
+    padding: 10px;
+}
+.accueil a{
+    text-decoration: none;
+    color: #575b5e;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: 1fr;
@@ -8,9 +16,8 @@
 
 .carte{
     width: auto;
-    
 
-    border: solid 1px green;
+    border: solid 1px #d2d2d2;
     border-radius: 3%;
 }
 
