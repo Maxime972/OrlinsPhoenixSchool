@@ -10,8 +10,6 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
-    
-    border: solid 1px red;
 }
 
 .carte{
@@ -37,6 +35,26 @@
 
 .grid-item{
     padding: 10px;
+}
 
-    border: solid 1px blue;
+/*média query*/
+
+@media (min-width : 481px) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .carte{
+        height: 100%;
+    }
+    
+}
+
+@media (min-width : 850px) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
 }
