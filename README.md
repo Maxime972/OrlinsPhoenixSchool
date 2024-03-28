@@ -1,6 +1,6 @@
 # Orlins Phoenix School
 
-[![](/images/evaluation-studi.svg)](https://forthebadge.com){:target="_blank" }
+[![](/images/evaluation-studi.svg)](https://forthebadge.com)
 
 Création d'un site web dans le cadre de ma formation Graduate Développeur web full stack.
 
