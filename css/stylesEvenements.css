@@ -1,3 +1,26 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('/fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('/fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nomEcole{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: alex_brushregular, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+}
+
+.phoenixPara{
+    font-family: alex_brushregular, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-style: oblique -18deg;
+}
+
 .accueil{
     padding: 10px;
 }
@@ -35,6 +58,15 @@
 
 .grid-item{
     padding: 10px;
+}
+
+.date{
+    font-weight: bold;
+}
+
+.phoenixFooter{
+    font-family: alex_brushregular, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
 }
 
 footer a{
